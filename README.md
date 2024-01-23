@@ -1,2 +1,2 @@
 # Second-Project
-CF second project
+CF second project. Learning Git.
