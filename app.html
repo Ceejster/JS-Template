@@ -44,8 +44,21 @@
 
 <main class="flex-shrink-0">
     <div class="container">
-        <h1 class="mt-5">App</h1>
-        <p class="lead">I'll put the working app here</p>
+        <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col">
+                <h1 class="display-5 fw-bold lh-1 mb-3 pt-4">
+                    NAME
+                </h1>
+                <h4 class="lead">
+                    Description
+                </h4>
+            </div>
+            <div class="col">
+                <h4 class="border-1 border-bottom border-dark pt-4">
+                    Whats it do
+                </h4>
+            </div>
+        </div>
     </div>
  </main>
 
@@ -79,6 +92,10 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
     <script src="js/script.js"></script>
+    <script>
+        //change to relevant names
+        document.getElementById("reverseSubmit").addEventListener("click", getValue);
+    </script>
 </body>
 
 </html>
